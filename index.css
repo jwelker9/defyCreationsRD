@@ -1,0 +1,50 @@
+#image-container{
+  height:100%;
+  width:100%;
+  background-image: url(defy_creations_landing_page.jpg);
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  position:absolute;
+}
+#text-box{
+  background-color: black;
+  opacity:.8;
+  position:absolute;
+  bottom:0%;
+  height: 18%;
+  width:100%;
+}
+#left-text{
+  font-size:40px;
+  position: absolute;
+  bottom:.1%;
+  left:7%;
+  color:white;
+  z-index: 100;
+}
+
+
+#center-text{
+  font-size:20px;
+  position: absolute;
+  bottom:10.5%;
+  left:42.5%;
+  color:white;
+  z-index: 100;
+}
+#submit-button{
+  position: absolute;
+  width:100px;
+  bottom:3%;
+  left:55%;
+  color:white;
+  z-index: 101;
+}
+#email-input{
+  position: absolute;
+  width:200px;
+  bottom:3%;
+  left:40%;
+  z-index: 101;
+}
