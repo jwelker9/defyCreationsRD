@@ -25,11 +25,11 @@
   left: 6%;
 }
 #center-text{
-  font-size:22px;
+  font-size:20px;
   font-family:gotham;
   position: absolute;
-  bottom:55%;
-  left:7%;
+  bottom:54%;
+  left:4.5%;
   color:black;
   z-index: 100;
 }
