@@ -16,11 +16,11 @@ $(function(){
     document.body.appendChild(script);
   }
 
-
   $('#submit-button').click(function(){
     var email = $('#email-input').val()
-      submit('', email)
+    submit('', email);
+    console.log(email);
+    $('#email-input').val('Thanks for your support!');
+
   })
-
-
 });

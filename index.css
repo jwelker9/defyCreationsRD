@@ -18,11 +18,11 @@
   border-radius: 2%;
 }
 #defy_logo{
-  height:200px;
-  width:200px;
+  height:250px;
+  width:250px;
   position:fixed;
-  bottom: -5%;
-  left: 8%;
+  bottom: -8%;
+  left: 6%;
 }
 #center-text{
   font-size:22px;
@@ -35,7 +35,7 @@
 }
 #right-text{
   position: absolute;
-  bottom:7%;
+  bottom:10.5%;
   right:9%;
   z-index: 100;
 }
@@ -58,4 +58,32 @@
   bottom:3%;
   left:40%;
   z-index: 101;
+}
+#social-media-icons{
+  position:absolute;
+}
+.facebook-hover{
+  background-image: url('facebook-hover.png');
+}
+.instagram-hover{
+  background-image: url('instagram-hover.png');
+}
+.twitter-hover{
+  background-image: url('twitter-hover.png');
+}
+.social-slide {
+  cursor:pointer;
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-slide:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
 }
