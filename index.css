@@ -9,33 +9,44 @@
 }
 #text-box{
   background-color: black;
-  opacity:.8;
+  opacity:.95;
   position:absolute;
   bottom:0%;
-  height: 18%;
-  width:100%;
+  left:38.5%;
+  height: 15%;
+  width:25%;
+  border-radius: 2%;
 }
-#left-text{
-  font-size:40px;
-  position: absolute;
-  bottom:.1%;
-  left:7%;
-  color:white;
-  z-index: 100;
+#defy_logo{
+  height:200px;
+  width:200px;
+  position:fixed;
+  bottom: -5%;
+  left: 8%;
 }
-
-
 #center-text{
-  font-size:20px;
+  font-size:22px;
+  font-family:avant garde;
   position: absolute;
-  bottom:10.5%;
+  bottom:8%;
   left:42.5%;
   color:white;
   z-index: 100;
 }
+#right-text{
+  position: absolute;
+  bottom:7%;
+  right:9%;
+  z-index: 100;
+}
+#kickstarter{
+  height:30px;
+  width: 210px;
+}
 #submit-button{
   position: absolute;
   width:100px;
+  height:35px;
   bottom:3%;
   left:55%;
   color:white;
