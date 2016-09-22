@@ -2,7 +2,7 @@
   height:100%;
   width:100%;
   background-image: url(brighter_rose_gold_edit.jpg);
-  background-position: center;
+  background-position: right;
   background-size: 80%;
   background-repeat: no-repeat;
   position:absolute;
@@ -35,8 +35,8 @@
 }
 #right-text{
   position: absolute;
-  bottom:58.6%;
-  right:9%;
+  bottom:38%;
+  left:7.5%;
   z-index: 100;
 }
 #kickstarter{
