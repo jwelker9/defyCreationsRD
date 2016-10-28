@@ -1,47 +1,23 @@
-#image-container{
-  height:100%;
-  width:100%;
-  background-image: url(brighter_rose_gold_edit.jpg);
-  background-position: right;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  position:absolute;
+#background-image{
+  width:78%;
+  float:right;
+  overflow:hidden;
 }
-/*#text-box{
-  background-color: black;
-  opacity:.95;
-  position:absolute;
-  bottom:0%;
-  left:38.5%;
-  height: 15%;
-  width:25%;
-  border-radius: 2%;
-}*/
+
 #defy_logo{
   height:250px;
   width:250px;
-  position:fixed;
+  position:absolute;
   bottom: 55%;
   left: 6%;
 }
-#center-text{
+#center{
+  position: absolute;
   font-size:20px;
   font-family:gotham;
-  position: absolute;
   bottom:54%;
   left:5.6%;
-  color:black;
-  z-index: 100;
-}
-#right-text{
-  position: absolute;
-  bottom:38%;
-  left:7.5%;
-  z-index: 100;
-}
-#kickstarter{
-  height:25px;
-  width: 210px;
+  display:inline;
 }
 #submit-button{
   position: absolute;
@@ -59,8 +35,15 @@
   left:4%;
   z-index: 101;
 }
-#social-media-icons{
-  position:absolute;
+#kickstarter{
+  height:25px;
+  width: 210px;
+}
+#right-text{
+  position: absolute;
+  bottom:28%;
+  left:7.5%;
+  z-index: 100;
 }
 .facebook-hover{
   background-image: url('facebook-hover.png');
@@ -86,4 +69,32 @@
 .social-slide:hover {
 	background-position: 0px -48px;
 	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+
+@media screen and (max-width: 414px) {
+  #background-image{
+    height:50%;
+    width:120%;
+  }
+  #defy_logo{
+    bottom:28%;
+    left:15%;
+  }
+  #center{
+    bottom:33%;
+    left:14%;
+  }
+  #submit-button{
+    bottom:22%;
+    left:33%;
+  }
+  #email-input{
+    bottom:28%;
+    left:20%;
+  }
+  #right-text{
+    bottom:5%;
+    left:20%;
+  }
 }

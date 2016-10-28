@@ -1,7 +1,7 @@
 // $('#false-image').on('load', function(){
 //   console.log('yes');
 //   $('#image-container').css('background-image', 'url(defy_creations_landing_page.jpg)')
-// });
+// 
 $(function(){
   function submit(name, email, callback){
     console.log('working');
