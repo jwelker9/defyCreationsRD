@@ -1,7 +1,7 @@
 #background-image{
   width:78%;
-  float:right;
   overflow:hidden;
+  float:right;
 }
 
 #defy_logo{
@@ -75,7 +75,9 @@
 @media screen and (max-width: 414px) {
   #background-image{
     height:50%;
-    width:120%;
+    width:100%;
+    float:left;
+
   }
   #defy_logo{
     bottom:28%;
